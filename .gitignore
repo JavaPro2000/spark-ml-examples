@@ -15,17 +15,8 @@ dist/
 lib_managed/
 
 *.log
-log/
-logs/
-out/
+
 project/
 target/
 
-
-# For Hive
-metastore_db/
-spark-warehouse/
-
 tmp/
-tmp/spark
-tmp/spark-hive
