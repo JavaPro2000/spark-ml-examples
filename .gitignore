@@ -1,22 +1,31 @@
+# General ignored
 *#*#
 *.#*
-*.iml
 *~
+
+# mac os
 .DS_Store
+
+# eclipse
 .cache
 .classpath
+.project
+.settings
+
+# intellij idea
 .idea/
 .idea_modules/
-.project
+
+# scala
 .scala_dependencies
-.settings
+
+# sbt
+project/
+
+# other
+target/
+tmp/
 lib/
 dist/
 lib_managed/
-
 *.log
-
-project/
-target/
-
-tmp/
