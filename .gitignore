@@ -1,31 +1,32 @@
-# General ignored
-*#*#
-*.#*
-*~
-
-# mac os
-.DS_Store
-
-# eclipse
-.cache
+# eclipse related files
+.settings/
+.cache-main
+.cache-tests
 .classpath
 .project
-.settings
-
-# intellij idea
-.idea/
-.idea_modules/
-
-# scala
-.scala_dependencies
-
-# sbt
-project/
-
-# other
 target/
+
+# IntelliJ related files
+.idea/
+*.iml
+
+# gralde related files
+.gradle
+build/
+
+# spark related files
+**/derby.log
+metastore_db/
+spark-warehouse/
+
+# macos related files
+.DS_Store
+
+# other files
 tmp/
-lib/
-dist/
-lib_managed/
-*.log
+temp/
+logs/
+
+
+
+

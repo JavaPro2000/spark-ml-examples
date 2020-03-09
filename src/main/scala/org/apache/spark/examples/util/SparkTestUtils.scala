@@ -1,10 +1,11 @@
-package org.apache.spark.examples.ml
+package org.apache.spark.examples.util
 
 import java.io.File
 
 import org.apache.commons.exec.{CommandLine, DefaultExecutor}
 import org.apache.commons.io.FileUtils
 import org.apache.commons.lang3.SystemUtils
+
 
 object SparkTestUtils {
   def initTestEnv() {
@@ -15,9 +16,7 @@ object SparkTestUtils {
     sys.props.put("hive.exec.scratchdir", user_dir + "/tmp/hive/scratch")
     sys.props.put("spark.sql.warehouse.dir", spark_hive_warehouse_dir)
     sys.props.put("spark.local.dir", user_dir + "/tmp/spark/scratch")
-    //sys.props.put("spark.master", "local")
-    sys.props.put("spark.master", "local[2]")
-    //sys.props.put("spark.master", "local[*]")
+    sys.props.put("spark.master", "local[*]")
 
     initTmpFolder(user_dir)
   }
