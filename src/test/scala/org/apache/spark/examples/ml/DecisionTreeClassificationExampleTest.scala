@@ -6,7 +6,7 @@ import org.scalatest.funsuite.AnyFunSuite
 
 
 class DecisionTreeClassificationExampleTest extends AnyFunSuite with BeforeAndAfter {
-  test("testMain") {
+  test("DecisionTreeClassificationExampleTest") {
     DecisionTreeClassificationExample.main(null)
   }
 

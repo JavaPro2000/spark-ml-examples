@@ -1,11 +1,12 @@
 package org.apache.spark.examples.ml
 
 import org.apache.spark.examples.util.SparkTestUtils
-import org.scalatest.{BeforeAndAfter, FunSuite}
+import org.scalatest.BeforeAndAfter
+import org.scalatest.funsuite.AnyFunSuite
 
-class EstimatorTransformerParamExampleTest extends FunSuite with BeforeAndAfter {
+class EstimatorTransformerParamExampleTest extends AnyFunSuite with BeforeAndAfter {
 
-  test("testMain") {
+  test("EstimatorTransformerParamExampleTest") {
     EstimatorTransformerParamExample.main(null)
   }
 

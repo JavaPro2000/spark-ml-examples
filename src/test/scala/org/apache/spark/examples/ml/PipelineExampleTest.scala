@@ -1,11 +1,12 @@
 package org.apache.spark.examples.ml
 
 import org.apache.spark.examples.util.SparkTestUtils
-import org.scalatest.{BeforeAndAfter, FunSuite}
+import org.scalatest.BeforeAndAfter
+import org.scalatest.funsuite.AnyFunSuite
 
-class PipelineExampleTest extends FunSuite with BeforeAndAfter {
+class PipelineExampleTest extends AnyFunSuite with BeforeAndAfter {
 
-  test("testMain") {
+  test("PipelineExampleTest") {
     PipelineExample.main(null)
   }
 
