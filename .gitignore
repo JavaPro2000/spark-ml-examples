@@ -11,21 +11,21 @@ target/
 *.iml
 
 # gralde related files
-.gradle
+.gradle/
 build/
 
 # spark related files
 **/derby.log
-metastore_db/
-spark-warehouse/
+**/metastore_db/
+**/spark-warehouse/
 
 # macos related files
-.DS_Store
+**/.DS_Store
 
 # other files
-tmp/
-temp/
-logs/
+**/tmp/
+**/temp/
+**/logs/
 
 
 
